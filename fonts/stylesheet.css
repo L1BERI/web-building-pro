@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-SemiBold.eot');
+    src: url('Inter-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Inter-SemiBold.woff2') format('woff2'),
+        url('Inter-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-Bold.eot');
+    src: url('Inter-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Inter-Bold.woff2') format('woff2'),
+        url('Inter-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-Regular.eot');
+    src: url('Inter-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Inter-Regular.woff2') format('woff2'),
+        url('Inter-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Medium.eot');
+    src: url('Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Roboto-Medium.woff2') format('woff2'),
+        url('Roboto-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('Manrope-Bold.eot');
+    src: url('Manrope-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Manrope-Bold.woff2') format('woff2'),
+        url('Manrope-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('RobotoMono-Regular.eot');
+    src: url('RobotoMono-Regular.eot?#iefix') format('embedded-opentype'),
+        url('RobotoMono-Regular.woff2') format('woff2'),
+        url('RobotoMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Regular.eot');
+    src: url('Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Roboto-Regular.woff2') format('woff2'),
+        url('Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
