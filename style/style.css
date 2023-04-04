@@ -782,6 +782,10 @@ sub a:hover {
   }
 }
 
+.projects-container {
+  display: none;
+}
+
 .swiper-container {
   width: 100%;
   overflow: hidden;
@@ -886,10 +890,6 @@ sub a:hover {
 
 .swiper-pagination-bullet-active {
   background-color: var(--color-ocean);
-}
-
-.projects-container {
-  display: none;
 }
 
 @media screen and (max-width: 800px) {
