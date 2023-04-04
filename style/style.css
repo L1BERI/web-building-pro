@@ -2046,7 +2046,7 @@ input:checked + .slider:before {
     margin-left: 0px;
   }
   .hero__content {
-    padding: 56px 15px 0 15px;
+    padding: 0 15px 0 15px;
     margin-bottom: 24px;
   }
   .quality__inner,
