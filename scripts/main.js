@@ -72,7 +72,8 @@ burgerMenu.addEventListener('click', function (e) {
 // Инициализация слайдера
 var mySwiper = new Swiper ('.swiper-container', {
   slidesPerView: 3,
-
+  draggable: true,
+  cssMode: true,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -81,8 +82,9 @@ var mySwiper = new Swiper ('.swiper-container', {
   breakpoints: {
     320:{
       direction: 'vertical',
-    slidesPerView: 'auto',
-    freeMode: true,
+      slidesPerView: 'auto',
+      freeMode: true,
+      cssMode: true,
       
     },
     800:{
@@ -92,7 +94,10 @@ var mySwiper = new Swiper ('.swiper-container', {
       slidesPerView: 3
     }, 
   }
- 
- 
 })
 
+document.querySelectorAll('*').forEach(el => {
+  el.addEventListener('touchmove', e => {
+    e.preventDefault();
+  });
+});
