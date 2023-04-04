@@ -83,8 +83,6 @@ var mySwiper = new Swiper ('.swiper-container', {
     320:{
       direction: 'vertical',
       slidesPerView: 'auto',
-      freeMode: true,
-      cssMode: true,
       
     },
     800:{
@@ -95,9 +93,3 @@ var mySwiper = new Swiper ('.swiper-container', {
     }, 
   }
 })
-
-document.querySelectorAll('*').forEach(el => {
-  el.addEventListener('touchmove', e => {
-    e.preventDefault();
-  });
-});
