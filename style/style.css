@@ -805,7 +805,6 @@ sub a:hover {
 
 .swiper-wrapper {
   display: flex;
-  gap: 24px;
   transition: transform 0.5s ease-in-out;
 }
 

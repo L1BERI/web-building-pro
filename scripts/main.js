@@ -73,7 +73,7 @@ burgerMenu.addEventListener('click', function (e) {
 var mySwiper = new Swiper ('.swiper-container', {
   slidesPerView: 3,
   draggable: true,
-  cssMode: true,
+  spaceBetween: 24,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
