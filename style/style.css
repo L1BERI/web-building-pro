@@ -1914,11 +1914,12 @@ input:checked + .slider:before {
     display: block;
     position: fixed;
     background: var(--color-white);
-    top: -100vh;
+    top: -170vh;
     right: 0;
     bottom: 0;
     left: 0;
     z-index: 2000;
+    overflow-y: scroll;
     transition: all 0.5s;
   }
   .mobile-menu .mobile-menu__inner {
@@ -1936,6 +1937,7 @@ input:checked + .slider:before {
     justify-self: flex-start;
     margin-top: 24px;
     gap: 0;
+    margin-bottom: 16px;
   }
   .mobile-menu .mobile__menu-item {
     border-bottom: 1px solid var(--color-grey-200);
