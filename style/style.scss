@@ -846,7 +846,8 @@ sub a {
     }
 }
 
-.projects-container{
+.projects-container,
+.projects-wrapper{
     display: none;
     visibility: hidden;
 }
@@ -1000,7 +1001,8 @@ sub a {
         display: none;
     }
 
-    .projects-container {
+    .projects-container,
+    .projects-wrapper {
         display: flex;
         visibility: visible;
     }

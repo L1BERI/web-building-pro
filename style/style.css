@@ -782,7 +782,8 @@ sub a:hover {
   }
 }
 
-.projects-container {
+.projects-container,
+.projects-wrapper {
   display: none;
   visibility: hidden;
 }
@@ -897,7 +898,8 @@ sub a:hover {
   .swiper-container {
     display: none;
   }
-  .projects-container {
+  .projects-container,
+  .projects-wrapper {
     display: flex;
     visibility: visible;
   }
