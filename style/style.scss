@@ -848,6 +848,7 @@ sub a {
 
 .projects-container{
     display: none;
+    visibility: hidden;
 }
 
 // .projects__slider {
@@ -1001,6 +1002,7 @@ sub a {
 
     .projects-container {
         display: flex;
+        visibility: visible;
     }
 
     .projects-wrapper {
